@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "types": ["jest"] // enables using 'expect'
+  },
+  "include": ["src", "tests"]
+}

@@ -1,0 +1,15 @@
+{
+  "extends": "../tsconfig.json",
+  "references": [
+    {
+      "name": "my-lib",
+      "path": ".."
+    }
+  ],
+  "compilerOptions": {
+    "types": ["jest"], // enable jest to add type declarations to methods being added to your global environment
+    "rootDir": "..",
+    "noEmit": true
+  },
+  "include": ["."]
+}
